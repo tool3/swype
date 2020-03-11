@@ -1,7 +1,6 @@
 {
   "name": "swype",
-  "version": "1.0.0",
-  "private": false,
+  "version": "1.0.1",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -11,6 +10,23 @@
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:tool3/swype.git"
+  },
+  "keywords": [
+    "react",
+    "ui-component",
+    "javascript",
+    "mobile",
+    "swipe"
+  ],
+  "author": "Tal Hayut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tool3/swype/issues"
+  },
+  "homepage": "https://github.com/tool3/swype#readme",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
