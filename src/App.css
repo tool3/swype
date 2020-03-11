@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #121212;
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
 }
 
 html {
@@ -25,18 +25,19 @@ html {
   width: 80vw;
   border: 1px solid white;
   border-radius: 20px;
-  box-shadow: 0 10px 10px 5px black;
+  box-shadow: 0 5px 5px 2px black;
   transition: all 0.3s ease;
   margin-bottom: 20px;
+  font-size: 40px;
 }
 
 .swiper_card__header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35px;
-  font-size: 20px;
-  background: white;
+  height: 12%;
+  background: #1e1e1e;
+  color: #E8CBC0;
   border-radius: 20px 20px 0px 0px;
 }
 

@@ -1,6 +1,8 @@
 # Swype
 a simple card swipe component with indicators
 
+![alt txt](demo.gif)
+
 # Install
 ```bash
 npm i swype
