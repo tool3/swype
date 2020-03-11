@@ -1,6 +1,7 @@
-# Swype
+# Swype 
 a simple card swipe component with indicators
-![alt txt](demo.gif)
+![alt txt](docs/demo.gif)
+
 
 # Install
 ```bash
