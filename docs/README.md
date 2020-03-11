@@ -1,6 +1,5 @@
 # Swype
 a simple card swipe component with indicators
-
 ![alt txt](demo.gif)
 
 # Install
@@ -35,3 +34,8 @@ export const MyComponent = () => <Swype cards={cards} />;
 # Storybook
 run `npm run storybook` for a storybook version of the component.
 
+# Features
+* super simple
+* multiple ways to navigate cards
+* responsive
+* auto adjusts according to content
