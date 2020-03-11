@@ -19,7 +19,8 @@
     "ui-component",
     "javascript",
     "mobile",
-    "swipe"
+    "swipe",
+    "front-end"
   ],
   "author": "Tal Hayut",
   "license": "MIT",
@@ -29,7 +30,7 @@
   "homepage": "https://github.com/tool3/swype#readme",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL='.' && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
