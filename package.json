@@ -1,6 +1,6 @@
 {
   "name": "swype",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/tool3/swype/issues"
   },
-  "homepage": "https://github.com/tool3/swype#readme",
+  "homepage": "https://github.com/tool3/swype",
   "scripts": {
     "start": "react-scripts start",
     "build": "PUBLIC_URL='.' && react-scripts build",

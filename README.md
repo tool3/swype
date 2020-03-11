@@ -1,4 +1,5 @@
-# Swype
+# Swype 
+
 a simple card swipe component with indicators
 
 # Install
