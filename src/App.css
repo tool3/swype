@@ -1,38 +1,81 @@
 .App {
   text-align: center;
+  padding: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #121212;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.swype {
+  overflow: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.swiper_card {
+  height: 70vh;
+  width: 80vw;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px 5px black;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.swiper_card__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  font-size: 20px;
+  background: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.swiper_card__body {
+  height: 100%;
+  width: 100%;
+  display: flex;
   color: white;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.swiper_card__body--arrow {
+  width: 5%;
+  height: 100%;
+  cursor: pointer;
+  color: #1e1e1e;
+  filter: blur(10px);
+}
+.swiper_card__body--arrow:hover {
+  filter: blur(0px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousell_indicator {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousell_indicator--item {
+  transition: all 0.2s ease;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: white;
 }
