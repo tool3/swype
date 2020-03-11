@@ -1,7 +1,6 @@
 import React from 'react';
 import Swype from './components/Swype';
 import { cards } from './cards/cards';
-
 import './App.css';
 
 function App() {
