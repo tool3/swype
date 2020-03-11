@@ -40,8 +40,7 @@ const Swype = (props) => {
             <SwipeableViews
                 enableMouseEvents
                 onChangeIndex={updateSlide}
-                index={state.currentSlide}
-            >
+                index={state.currentSlide}>
                 {cards.map(({ title, content }, index) => {
                     return (
                         <SwiperContent
