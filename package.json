@@ -1,6 +1,6 @@
 {
   "name": "swype",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "Tal Hayut",
   "description": "simple swipe react component",
   "scripts": {
