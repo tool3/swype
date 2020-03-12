@@ -40,3 +40,6 @@ run `npm run storybook` for a storybook version of the component.
 * multiple ways to navigate cards
 * responsive
 * auto adjusts according to content
+
+# overflow
+note that you may need to add `overflow-x: hidden` to whatevers wraps `Swype`
