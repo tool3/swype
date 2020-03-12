@@ -21,6 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: tool3/publisher@master
+      - run: npm ci
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           npm_token: ${{ secrets.NPM_TOKEN }}
