@@ -1,8 +1,8 @@
 {
-  "name": "swip",
-  "version": "1.0.0",
+  "name": "swype",
+  "version": "1.0.4",
   "author": "Tal Hayut",
-  "description": "",
+  "description": "simple swipe react component",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "lint": "eslint src/**/*.js",
@@ -13,8 +13,16 @@
     "build-storybook": "build-storybook"
   },
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:tool3/swype.git"
+  },
   "keywords": [
-    "react"
+    "react",
+    "ui-component",
+    "javascript",
+    "mobile",
+    "swipe"
   ],
   "files": [
     "lib"
