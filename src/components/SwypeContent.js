@@ -1,21 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { SwypeDiv, SwypeCard, SwypeCardHeader, SwypeCardBody, SwypeCardArrow } from '../styled/styledComponents';
 
 const SwypeContent = (props) => {
     const { header, index, body, onArrowClick } = props;
     return (
-        <div className="swype">
-            <div className="swiper_card">
-                <div className="swiper_card__header">{header}</div>
-                <div className="swiper_card__body">
-                    <div className="swiper_card__body--arrow"
-                        onClick={() => onArrowClick(index - 1)} />
-                    <div className="swiper_card__body--text">{body}</div>
-                    <div className="swiper_card__body--arrow"
-                        onClick={() => onArrowClick(index + 1)} />
-                </div>
-            </div>
-        </div>
+        <SwypeDiv>
+            <SwypeCard>
+                <SwypeCardHeader>{header}</SwypeCardHeader>
+                <SwypeCardBody>
+                    <SwypeCardArrow onClick={() => onArrowClick(index - 1)} />
+                    <div>{body}</div>
+                    <SwypeCardArrow onClick={() => onArrowClick(index + 1)} />
+                </SwypeCardBody>
+            </SwypeCard>
+        </SwypeDiv>
     );
 };
 

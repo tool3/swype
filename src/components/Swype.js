@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { CarousellIndicator, CarousellIndicatorItem, Selected } from '../styled/styledComponents';
 import SwypeContent from './SwypeContent';
 import SwipeableViews from 'react-swipeable-views';
 import PropTypes from 'prop-types';
-import './Swype.css';
 
 const Swype = (props) => {
     const { cards } = props;
@@ -36,21 +36,13 @@ const Swype = (props) => {
                     );
                 })}
             </SwipeableViews>
-            <div className="carousell_indicator">
+            <CarousellIndicator>
                 {cards.map((item, index) => {
-                    return (
-                        <div
-                            key={index}
-                            onClick={() => onCarouselItemClick(index)}
-                            className={
-                                state.currentSlide === index
-                                    ? "carousell_indicator--item selected"
-                                    : "carousell_indicator--item"
-                            }
-                        />
-                    );
+                    return  state.currentSlide === index ? <Selected key={index}
+                    onClick={() => onCarouselItemClick(index)}/> : <CarousellIndicatorItem key={index}
+                    onClick={() => onCarouselItemClick(index)}/>
                 })}
-            </div>
+            </CarousellIndicator>
         </div>
     );
 };
