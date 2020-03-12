@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const SwypeWrapper = styled.div`
+    overflow: hidden;
+`
+
 export const SwypeDiv = styled.div`
     overflow: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

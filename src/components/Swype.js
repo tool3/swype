@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CarousellIndicator, CarousellIndicatorItem, Selected } from '../styled/styledComponents';
+import { CarousellIndicator, CarousellIndicatorItem, Selected, SwypeWrapper } from '../styled/styledComponents';
 import SwypeContent from './SwypeContent';
 import SwipeableViews from 'react-swipeable-views';
 import PropTypes from 'prop-types';
@@ -19,7 +19,7 @@ const Swype = (props) => {
     }
 
     return (
-        <div>
+        <SwypeWrapper>
             <SwipeableViews
                 enableMouseEvents
                 onChangeIndex={updateSlide}
@@ -43,7 +43,7 @@ const Swype = (props) => {
                     onClick={() => onCarouselItemClick(index)}/>
                 })}
             </CarousellIndicator>
-        </div>
+        </SwypeWrapper>
     );
 };
 
