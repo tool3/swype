@@ -61,7 +61,7 @@
     "babel-loader": "^8.0.6",
     "chai": "^4.2.0",
     "core-js": "^3.2.1",
-    "css-loader": "^0.28.9",
+    "css-loader": "^3.4.2",
     "dotenv": "^8.0.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
@@ -105,7 +105,7 @@
     "rollup-plugin-terser": "^5.1.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
-    "webpack": "^3.11.0",
+    "webpack": "^4.42.0",
     "webpack-dev-server": "^2.11.1"
   },
   "peerDependencies": {
